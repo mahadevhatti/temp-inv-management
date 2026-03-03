@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bcg-inv": {
+    "inv-management": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -42,7 +42,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bcg-inv",
+            "outputPath": "dist/inv-management",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bcg-inv:build:production"
+              "buildTarget": "inv-management:build:production"
             },
             "development": {
-              "buildTarget": "bcg-inv:build:development"
+              "buildTarget": "inv-management:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "bcg-inv:build"
+            "buildTarget": "inv-management:build"
           }
         },
         "test": {
