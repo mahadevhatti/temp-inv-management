@@ -1,0 +1,100 @@
+{
+    "CITY_DATA": [
+        {
+            "id": "bangalore",
+            "name": "Bangalore",
+            "coordinates": [
+                12.9716,
+                77.5946
+            ],
+            "numberForecast": {
+                "value": 128,
+                "trend": "up"
+            },
+            "percentageForecast": {
+                "value": 6.4,
+                "trend": "up"
+            }
+        },
+        {
+            "id": "london",
+            "name": "London",
+            "coordinates": [
+                51.5072,
+                -0.1276
+            ],
+            "numberForecast": {
+                "value": 96,
+                "trend": "down"
+            },
+            "percentageForecast": {
+                "value": 3.1,
+                "trend": "down"
+            }
+        },
+        {
+            "id": "new_york",
+            "name": "New York",
+            "coordinates": [
+                40.7128,
+                -74.006
+            ],
+            "numberForecast": {
+                "value": 210,
+                "trend": "up"
+            },
+            "percentageForecast": {
+                "value": 8.9,
+                "trend": "up"
+            }
+        },
+        {
+            "id": "tokyo",
+            "name": "Tokyo",
+            "coordinates": [
+                35.6762,
+                139.6503
+            ],
+            "numberForecast": {
+                "value": 154,
+                "trend": "down"
+            },
+            "percentageForecast": {
+                "value": 4.7,
+                "trend": "up"
+            }
+        },
+        {
+            "id": "paris",
+            "name": "Paris",
+            "coordinates": [
+                48.8566,
+                2.3522
+            ],
+            "numberForecast": {
+                "value": 134,
+                "trend": "up"
+            },
+            "percentageForecast": {
+                "value": 5.2,
+                "trend": "down"
+            }
+        },
+        {
+            "id": "sydney",
+            "name": "Sydney",
+            "coordinates": [
+                -33.8688,
+                151.2093
+            ],
+            "numberForecast": {
+                "value": 88,
+                "trend": "down"
+            },
+            "percentageForecast": {
+                "value": 2.8,
+                "trend": "down"
+            }
+        }
+    ]
+}
